@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy Products</title>
+    <!--Tailwind CSS CDN link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+
+    <!--Responsive NavBar-->
+    <nav class="p-3 bg-green-100 flex items-center justify-between shadow-xl sticky top-0 z-10">
+      <h1 class="text-2xl font-bold">Ivy Green</h1>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4 w-6 h-6 md:hidden" >
+        <path fill-rule="evenodd" d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+      </svg>
+
+        <!-- <h3>Menu</h3> -->
+      <ul class="flex gap-5 text-black-600 hidden md:flex">
+        <li>
+          <a class="hover:underline hover:text-blue-300" href="./index.html">Home</a>
+        </li>
+        <li>
+          <a class="hover:underline hover:text-blue-300" href="./products.html">Products</a>
+        </li>
+        <li>
+          <a class="hover:underline hover:text-blue-300" href="./contact.html">Contact</a>
+        </li>
+      </ul>      
+    </nav>
+
+    <!--Products-->
+    <section class="p-4 text-center">
+      <h1 class="text-2xl font-bold py-2">Our Products</h1>
+      <input type="text" class="border border-black m-3"/>
+      <div class="grid grid-cols-2 md:grid-cols-4">
+        <div class="py-2">
+          <img src="./best_1.png" alt="image" class="inline hover:shadow-xl transform hover:scale-125">
+          <h1>Jade Plant</h1>
+          <p>$20</p>
+        </div>
+        <div class="py-2">
+          <img src="./best_2.png" alt="image" class="inline hover:shadow-xl transform hover:scale-75">
+          <h1>Chrysanthamum Plant</h1>
+          <p>$25</p>
+        </div>
+        <div class="py-2">
+          <img src="./best_3.png" alt="image" class="inline hover:shadow-xl transform hover:-translate-y-2">
+          <h1>Lilly Plant</h1>
+          <p>$10</p>
+        </div>
+        <div class="py-2">
+          <img src="./best_4.png" alt="image" class="inline hover:shadow-xl transform hover:-translate-y-2">
+          <h1>Rose Plant</h1>
+          <p>$15</p>
+        </div>
+        <div class="py-2">
+          <img src="./best_2.png" alt="image" class="inline hover:shadow-xl transform hover:scale-125">
+          <h1>Jade Plant</h1>
+          <p>$20</p>
+        </div>
+        <div class="py-2">
+          <img src="./best_3.png" alt="image" class="inline hover:shadow-xl transform hover:scale-75">
+          <h1>Chrysanthamum Plant</h1>
+          <p>$25</p>
+        </div>
+        <div class="py-2">
+          <img src="./best_4.png" alt="image" class="inline hover:shadow-xl transform hover:-translate-y-2">
+          <h1>Lilly Plant</h1>
+          <p>$10</p>
+        </div>
+        <div class="py-2">
+          <img src="./best_1.png" alt="image" class="inline hover:shadow-xl transform hover:-translate-y-2">
+          <h1>Rose Plant</h1>
+          <p>$15</p>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section class="bg-green-100 flex flex-col gap-5 p-2 mt-5">
+      <h1 class="text-2xl font-bold">Ivy Garden</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis consequatur nam aut doloribus corporis. Nostrum ut ex eos illo impedit aliquid maxime veniam error dignissimos ullam, voluptatem, doloremque deserunt esse nobis optio voluptatum quos totam ad voluptatibus, eveniet labore facilis tempora. Quis mollitia assumenda tempora exercitationem? Sed rerum doloremque officia!</p>
+      <p>&copy; 2025 www.ivygarden.com</p>
+    </section>
+
+</body>
+</html>

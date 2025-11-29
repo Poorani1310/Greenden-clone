@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Responsive NavBar-->
+    <nav class="p-3 bg-green-100 flex items-center justify-between shadow-xl sticky top-0 z-10">
+      <h1 class="text-2xl font-bold">Ivy Green</h1>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4 w-6 h-6 md:hidden" >
+        <path fill-rule="evenodd" d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+      </svg>
+      <ul class="flex gap-5 text-black-600 hidden md:flex">
+        <li>
+          <a class="hover:underline hover:text-blue-300" href="./index.html">Home</a>
+        </li>
+        <li>
+          <a class="hover:underline hover:text-blue-300" href="./products.html">Products</a>
+        </li>
+        <li>
+          <a class="hover:underline hover:text-blue-300" href="./contact.html">Contact</a>
+        </li>
+      </ul>      
+    </nav>
+
+    <!--form-->
+    <section class="bg-gray-100 py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            Get in Touch
+          </h2>
+          <p class="mt-4 text-lg leading-6 text-gray-600">
+            Have a question or want to work together? Fill out the form below
+          </p>
+        </div>
+        <div class="mt-10 sm:mt-12">
+          <form action="#" method="POST" class="max-w-xl mx-auto">
+            <div class="grid grid-cols-1 gap-y-6">
+              <!-- Name Field -->
+              <div>
+                <label for="name" class="sr-only">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                  class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                />
+              </div>
+              <!-- Email Field -->
+              <div>
+                <label for="email" class="sr-only">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                  class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                />
+              </div>
+              <!-- Message Field -->
+              <div>
+                <label for="message" class="sr-only">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="4"
+                  placeholder="Your Message"
+                  required
+                  class="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                ></textarea>
+              </div>
+              <!-- Submit Button -->
+              <div>
+                <button
+                  type="submit"
+                  class="w-full inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section class="bg-green-100 flex flex-col gap-5 p-2 mt-5">
+      <h1 class="text-2xl font-bold">Ivy Garden</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis consequatur nam aut doloribus corporis. Nostrum ut ex eos illo impedit aliquid maxime veniam error dignissimos ullam, voluptatem, doloremque deserunt esse nobis optio voluptatum quos totam ad voluptatibus, eveniet labore facilis tempora. Quis mollitia assumenda tempora exercitationem? Sed rerum doloremque officia!</p>
+      <p>&copy; 2025 www.ivygarden.com</p>
+    </section>
+  </body>
+</html>
