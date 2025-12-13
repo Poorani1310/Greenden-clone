@@ -10,3 +10,5 @@ The site was responsive for the mobile screen and the large laptop screen.
 Used Tailwind CSS for the responsiveness of the site.
 Used small animations for the products image to get used to the transform.
 
+Use the link to view the site : https://poorani1310.github.io/Greenden-clone/
+
